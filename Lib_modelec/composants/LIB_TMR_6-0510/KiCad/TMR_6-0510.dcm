@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMR_6-0510
+D 6 Watt DC/DC converter, industrial, 2:1 input, regulated, 1600 VDC I/O-isolation, encapsulated, SIP-8
+K
+F https://tracopower.com/tmr6-datasheet/
+$ENDCMP
+#
+#End Doc Library

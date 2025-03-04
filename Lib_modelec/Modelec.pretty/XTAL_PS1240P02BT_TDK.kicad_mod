@@ -1,0 +1,238 @@
+(footprint "XTAL_PS1240P02BT_TDK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Buzzer passif")
+	(property "Reference" "REF**"
+		(at 2.5 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d27d3280-80cf-46fe-a3f1-385d984e2ab2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTAL_PS1240P02BT_TDK"
+		(at 2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "acac20e5-d690-4ab9-86f5-3f74703ec74e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5310db0-8916-444a-b5f5-6c1447d09dcb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7da9124b-cd8d-46dd-9564-956091bb0a74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.374 0)
+		(end -4.104 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c2bd7eb-4487-4de7-85bd-d94d0c6d9880")
+	)
+	(fp_line
+		(start -4.739 -0.635)
+		(end -4.739 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5542ec55-874b-4615-8330-38bcc2865128")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 8.977 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "64f79916-97b8-4ad8-b07c-1188a36f97f9")
+	)
+	(fp_line
+		(start -4.104 -2.719294)
+		(end -0.219293 -6.604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4e11f15-d9a4-459d-86ea-b8a48690efbc")
+	)
+	(fp_line
+		(start -4.104 2.719294)
+		(end -4.104 -2.719294)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10046aba-1d47-4dcc-a0cb-7c9ac76e900c")
+	)
+	(fp_line
+		(start -0.219293 -6.604)
+		(end 5.219294 -6.604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "600fa66a-98cb-496c-8aa9-fdadc51dd704")
+	)
+	(fp_line
+		(start -0.219293 6.604)
+		(end -4.104 2.719294)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "176c4c8d-bd06-4576-87b7-a9cb762a52e5")
+	)
+	(fp_line
+		(start 5.219294 -6.604)
+		(end 9.104 -2.719294)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7dabc56-8ed3-4be5-90b9-3d4d3744c6fe")
+	)
+	(fp_line
+		(start 5.219294 6.604)
+		(end -0.219293 6.604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "533135a5-a021-4fb3-b929-64ef6f2fa07f")
+	)
+	(fp_line
+		(start 9.104 -2.719294)
+		(end 9.104 2.719294)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd5a7405-a718-4fae-b911-db2d988d2f72")
+	)
+	(fp_line
+		(start 9.104 2.719294)
+		(end 5.219294 6.604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c6c773e-f177-41c7-9002-cbc32f356a4b")
+	)
+	(fp_line
+		(start -5.374 0)
+		(end -4.104 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "843f7dab-9539-4872-a092-6fbd4da68ed9")
+	)
+	(fp_line
+		(start -4.739 -0.635)
+		(end -4.739 0.635)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b3bde0e-da55-4bac-95be-54877eaf324f")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 8.85 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c12db666-b910-4495-a4dc-7e3acf0a4012")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "90cacb79-cd13-45a6-b3db-a071d8016fc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4224 1.4224)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d9ae8af-63bf-4063-88f6-a2431e5a8d28")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.4224 1.4224)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d2415b08-4bab-4613-8ed2-04ad65d3ecb9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Lib_modelec/composants/LIB_PS1240P02BT_buzzer/PS1240P02BT.step"
+		(offset
+			(xyz 2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

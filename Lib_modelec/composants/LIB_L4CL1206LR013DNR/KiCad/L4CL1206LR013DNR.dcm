@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L4CL1206LR013DNR
+D Current Sense Resistors - SMD 4T L4CL1206 0.5W 30ppm 13 mOhm +/-0.5%
+K
+F https://www.littelfuse.com/media?resourcetype=datasheets&itemid=705ee59d-6d7d-4586-a1c9-d4fd20ab4969&filename=littelfuse-resistor-l4cl-datasheet
+$ENDCMP
+#
+#End Doc Library

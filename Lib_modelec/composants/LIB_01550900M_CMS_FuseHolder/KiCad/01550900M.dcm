@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 01550900M
+D Fuse Block 10 A 125V 1 Circuit Cartridge Surface Mount
+K
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

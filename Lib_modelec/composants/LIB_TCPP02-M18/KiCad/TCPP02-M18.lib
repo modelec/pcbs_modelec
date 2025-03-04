@@ -1,0 +1,42 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TCPP02-M18
+#/15003059/1555220/2.50/19/2/Integrated Circuit
+DEF TCPP02-M18 IC 0 30 Y Y 1 F N
+F0 "IC" 1250 800 50 H V L CNN
+F1 "TCPP02-M18" 1250 700 50 H V L CNN
+F2 "QFN50P350X350X60-19N-D" 1250 600 50 H I L CNN
+F3 "https://www.st.com/resource/en/data_brief/tcpp02-m18.pdf" 1250 500 50 H I L CNN
+F4 "USB Type-C Port Protection for Source application" 1250 400 50 H I L CNN "Description"
+F5 "0.6" 1250 300 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1250 200 50 H I L CNN "Manufacturer_Name"
+F7 "TCPP02-M18" 1250 100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-TCPP02-M18" 1250 0 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/TCPP02-M18?qs=DRkmTr78QARoKVN7k8jHPg%3D%3D" 1250 -100 50 H I L CNN "Mouser Price/Stock"
+F10 "TCPP02-M18" 1250 -200 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tcpp02-m18/stmicroelectronics?region=nac" 1250 -300 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X EN 1 0 0 200 R 50 50 0 0 P
+X CC1 2 0 -100 200 R 50 50 0 0 P
+X VCC_VCONN 3 0 -200 200 R 50 50 0 0 P
+X CC2 4 0 -300 200 R 50 50 0 0 P
+X IANA 5 0 -400 200 R 50 50 0 0 P
+X GATE 6 500 -1100 200 U 50 50 0 0 P
+X SRC 7 600 -1100 200 U 50 50 0 0 P
+X VBUSC 8 700 -1100 200 U 50 50 0 0 P
+X ISENSE 9 800 -1100 200 U 50 50 0 0 P
+X GND_2 14 1400 0 200 L 50 50 0 0 P
+X CC1C 13 1400 -100 200 L 50 50 0 0 P
+X CBIAS 12 1400 -200 200 L 50 50 0 0 P
+X CC2C 11 1400 -300 200 L 50 50 0 0 P
+X GND_1 10 1400 -400 200 L 50 50 0 0 P
+X GND_3 19 500 800 200 D 50 50 0 0 P
+X FLGN 18 600 800 200 D 50 50 0 0 P
+X SCL 17 700 800 200 D 50 50 0 0 P
+X SDA 16 800 800 200 D 50 50 0 0 P
+X I2C_ADD 15 900 800 200 D 50 50 0 0 P
+P 5 0 1 6 200 600 1200 600 1200 -900 200 -900 200 600 N
+ENDDRAW
+ENDDEF
+#
+#End Library

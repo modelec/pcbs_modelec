@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCPP02-M18
+D USB Type-C Port Protection for Source application
+K
+F https://www.st.com/resource/en/data_brief/tcpp02-m18.pdf
+$ENDCMP
+#
+#End Doc Library

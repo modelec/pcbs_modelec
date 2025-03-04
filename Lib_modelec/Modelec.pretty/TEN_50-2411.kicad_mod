@@ -1,0 +1,218 @@
+(footprint "TEN_50-2411"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TEN_50-2411")
+	(tags "Power Supply")
+	(property "Reference" "PS**"
+		(at -25.6871 12.71337 0)
+		(layer "F.SilkS")
+		(uuid "445ac503-133e-4750-883a-4e8fce410b56")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TEN_50-2411"
+		(at -25.6871 12.71337 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "800df638-a892-4054-97a5-d9dca0a41319")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16668928-5112-43a7-bff8-d4571d84e391")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "286a12ec-f250-45b6-9eaf-987050a956e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -50.8 0)
+		(end 0 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2cb2a3d-dbfd-49e9-8549-e3ce66b53884")
+	)
+	(fp_line
+		(start -50.8 25.4)
+		(end -50.8 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebcfe61c-10f8-4d69-8b23-6657ff34cff1")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 25.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "551365ab-d7cd-4fb3-8996-27db1b5dc9f4")
+	)
+	(fp_line
+		(start 0 25.4)
+		(end -50.8 25.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "965976d0-bd7b-4ef1-8a90-9439f031edf6")
+	)
+	(fp_circle
+		(center -51.836 20.311)
+		(end -51.836 20.533)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "79e93a0e-54f8-4018-91aa-0f2e7e86ff89")
+	)
+	(fp_line
+		(start -50.8 0)
+		(end 0 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0fea716-0ef0-45f9-beea-07d76a9df782")
+	)
+	(fp_line
+		(start -50.8 25.4)
+		(end -50.8 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9764883d-da3d-47f1-b26a-964b949b27ba")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 25.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98e8fa47-acb7-4bdf-85cf-00b578fcdbab")
+	)
+	(fp_line
+		(start 0 25.4)
+		(end -50.8 25.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5ff8617-41db-4f10-921d-b044a69cf132")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -25.6871 12.71337 0)
+		(layer "F.Fab")
+		(uuid "db122762-9d38-4b79-af22-48e2b28c4f7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -48.26 20.32)
+		(size 1.9 1.9)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "278e6136-f43c-4338-ad77-4e4e92e11b29")
+	)
+	(pad "2" thru_hole circle
+		(at -48.26 15.24)
+		(size 1.9 1.9)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aeea8abc-ebb8-4fb4-b42b-4a6a51f720e1")
+	)
+	(pad "3" thru_hole circle
+		(at -48.26 5.08)
+		(size 1.9 1.9)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "62ffbade-2300-4649-a25a-e4750c223579")
+	)
+	(pad "4" thru_hole circle
+		(at -2.54 22.86)
+		(size 1.9 1.9)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d489f69e-a5cf-4b89-9fd2-28e2562431f7")
+	)
+	(pad "5" thru_hole circle
+		(at -2.54 12.7)
+		(size 1.9 1.9)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d505e0c3-dac8-4fa8-a9c0-8de5a481de77")
+	)
+	(pad "6" thru_hole circle
+		(at -2.54 2.54)
+		(size 1.9 1.9)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7b83778-3d19-48cd-89db-12779a1f9eb2")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Lib_modelec/composants/LIB_TEN_50-2412WI/3D/TEN_50-2412WI.stp"
+		(offset
+			(xyz 0 -25.39999924 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
