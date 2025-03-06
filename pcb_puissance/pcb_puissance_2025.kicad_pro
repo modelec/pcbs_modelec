@@ -60,19 +60,19 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|130375785|122122559|27907012-58b6-443e-a220-23f3e8aa6eb1|915a3b33-aaab-4795-a97e-f459f7c69ba4",
+          "clearance|130375785|125877441|6e653d73-83b5-44f1-91ca-d44cf673be31|0852088b-0eb9-4d4f-a347-7de385691fae",
           ""
         ],
         [
-          "clearance|130492244|125993900|0852088b-0eb9-4d4f-a347-7de385691fae|6e653d73-83b5-44f1-91ca-d44cf673be31",
+          "clearance|130492244|122006100|915a3b33-aaab-4795-a97e-f459f7c69ba4|27907012-58b6-443e-a220-23f3e8aa6eb1",
           ""
         ],
         [
-          "clearance|134247126|122006100|7efff910-eacf-49bc-a337-f0943c9504ac|b1a146d8-c3c1-497f-b469-4505f29c32c5",
+          "clearance|134363585|122122559|b1a146d8-c3c1-497f-b469-4505f29c32c5|7efff910-eacf-49bc-a337-f0943c9504ac",
           ""
         ],
         [
-          "clearance|134247126|125993900|14e4ceb0-105b-4abe-bb4e-39168a9b7fb9|f9e4b12e-0079-4fe5-9f3c-cccb47c90bec",
+          "clearance|134363585|125877441|f9e4b12e-0079-4fe5-9f3c-cccb47c90bec|14e4ceb0-105b-4abe-bb4e-39168a9b7fb9",
           ""
         ],
         [
@@ -152,19 +152,19 @@
           ""
         ],
         [
-          "hole_clearance|141350000|141175000|0485cdf8-3133-4420-b5be-7416662bcfb4|62ab2533-6caa-4151-91a4-4426e6acd2ec",
+          "hole_clearance|141350000|141175000|62ab2533-6caa-4151-91a4-4426e6acd2ec|0485cdf8-3133-4420-b5be-7416662bcfb4",
           ""
         ],
         [
-          "hole_clearance|141550000|141175000|e891ec04-9101-43c9-ba87-743489fd64b6|62ab2533-6caa-4151-91a4-4426e6acd2ec",
+          "hole_clearance|141550000|141175000|62ab2533-6caa-4151-91a4-4426e6acd2ec|e891ec04-9101-43c9-ba87-743489fd64b6",
           ""
         ],
         [
-          "hole_clearance|146950000|141175000|085fde8f-0f50-4503-95f0-b51a96fb649a|fc2864d2-abdd-4265-a5eb-fb79efd850a8",
+          "hole_clearance|146950000|141175000|fc2864d2-abdd-4265-a5eb-fb79efd850a8|085fde8f-0f50-4503-95f0-b51a96fb649a",
           ""
         ],
         [
-          "hole_clearance|147150000|141175000|ddafb39a-2784-4104-b99e-ee7db51574d2|fc2864d2-abdd-4265-a5eb-fb79efd850a8",
+          "hole_clearance|147150000|141175000|fc2864d2-abdd-4265-a5eb-fb79efd850a8|ddafb39a-2784-4104-b99e-ee7db51574d2",
           ""
         ],
         [

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "2025 Power supply PCB")
-		(date "2025-02-10")
-		(rev "3")
+		(date "2025-03-06")
+		(rev "4")
 		(company "Modelec")
 		(comment 1 "only 5V, 12V and 24V. Has status leds and communicate status messages via UART.")
 		(comment 2 "all operations. 4 outputs tensions : 5V, 5V15, 12V and 24V. Emergency button will disable ")
@@ -2350,7 +2350,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "3568"
-			(at 57.15 48.26 0)
+			(at 62.738 46.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2520,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "3568"
-			(at 57.15 69.85 0)
+			(at 63.5 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +3432,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9d29a2a4-be3b-44ee-98d9-e5dceb77df62")
 		(property "Reference" "R3"
 			(at 105.41 146.0499 0)
@@ -3507,11 +3506,12 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW080510K0FKEA"
-			(at 102.87 147.32 0)
+			(at 113.03 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3624,7 +3624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TMR60510"
+		(property "Footprint" "Modelec:TMR60510"
 			(at 52.4 176.53 0)
 			(effects
 				(font
@@ -3994,7 +3994,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "3568"
-			(at 57.15 29.21 0)
+			(at 62.738 30.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4731,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "01550900M"
-			(at 144.78 135.89 0)
+			(at 151.892 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5567,7 @@
 		)
 		(uuid "fa075fcc-19c8-44d6-bdb9-cc0c9c29d565")
 		(property "Sheetname" "power_input_selector"
-			(at 76.2 25.9584 0)
+			(at 76.2 23.1644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5576,7 @@
 			)
 		)
 		(property "Sheetfile" "power_input_selector.kicad_sch"
-			(at 76.454 27.94 0)
+			(at 76.2 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
