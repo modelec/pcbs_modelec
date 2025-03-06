@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power supply controller")
-		(date "2025-02-10")
-		(rev "3")
+		(date "2025-03-06")
+		(rev "4")
 		(company "Modelec")
 		(comment 1 "read temperature, power measurements and validity status of the inputs")
 		(comment 2 "GPIO are accessible via J7 connector. The microcontroller can detect an emergency stop,")
@@ -4048,16 +4048,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 160.02) (xy 101.6 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65c5d57d-1a9d-4bef-8070-e267c6799257")
-	)
-	(wire
-		(pts
 			(xy 128.27 140.97) (xy 140.97 140.97)
 		)
 		(stroke
@@ -4635,6 +4625,16 @@
 			(type default)
 		)
 		(uuid "a97f2f90-e77d-423b-b80e-bfc1fc3ddbab")
+	)
+	(wire
+		(pts
+			(xy 46.99 54.61) (xy 46.99 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0efcbf-5656-4437-b376-366377be7d1e")
 	)
 	(wire
 		(pts
@@ -5999,6 +5999,17 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
+		(at 46.99 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b193e9d8-e544-46d5-b962-847c417eca77")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
 		(at 224.79 26.67 90)
 		(effects
 			(font
@@ -6113,6 +6124,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6217,6 +6229,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6386,6 +6399,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6488,6 +6502,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6656,6 +6671,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6734,6 +6750,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6759,7 +6776,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "42132c1d-68fb-4882-8ef5-b85ba0fbe7a4")
 		(property "Reference" "R31"
 			(at 58.42 151.1299 0)
@@ -6807,11 +6823,12 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW08051K00FKEA"
-			(at 60.96 152.4 0)
+			(at 67.564 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7125,7 +7142,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "2DC2412R-7"
-			(at 58.42 163.83 0)
+			(at 69.088 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7343,6 +7360,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7445,6 +7463,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7548,6 +7567,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7624,6 +7644,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7643,7 +7664,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 160.02 0)
+		(at 99.06 160.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7652,7 +7673,7 @@
 		(dnp no)
 		(uuid "9a176287-32c5-4430-960a-452f3976fa39")
 		(property "Reference" "#PWR021"
-			(at 101.6 166.37 0)
+			(at 99.06 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +7682,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.156 161.036 0)
+			(at 102.616 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,7 +7690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 160.02 0)
+			(at 99.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +7699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 160.02 0)
+			(at 99.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +7708,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 160.02 0)
+			(at 99.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,7 +7754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSOP8_MC_MCH"
+		(property "Footprint" "Modelec:MSOP8_MC_MCH"
 			(at 240.03 35.56 0)
 			(effects
 				(font
@@ -7768,6 +7789,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "7"
@@ -7888,6 +7910,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7990,6 +8013,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8158,6 +8182,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8514,6 +8539,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8674,7 +8700,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d6d363a1-c1b3-441a-8fc3-127f4678cdaa")
 		(property "Reference" "J8"
 			(at 35.56 76.1999 0)
@@ -8749,11 +8774,12 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "3220-14-0100-00"
-			(at 46.99 77.47 0)
+			(at 30.226 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "14"
@@ -8815,7 +8841,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ddcbe7f5-2aec-49dc-bd06-2cdf1f2c439a")
 		(property "Reference" "BZ1"
 			(at 72.39 151.1299 0)
@@ -8863,7 +8888,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PS1240P02BT"
-			(at 68.58 152.4 0)
+			(at 77.47 156.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,6 +9192,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

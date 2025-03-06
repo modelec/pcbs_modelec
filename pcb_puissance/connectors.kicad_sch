@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power output connectors")
-		(date "2025-02-10")
-		(rev "3")
+		(date "2025-03-06")
+		(rev "4")
 		(company "Modelec")
 		(comment 2 "USBC-Power Delivery 5V15 capacity, programmable from the STM32 via I2C")
 		(comment 3 "outputs. Current/Voltage/Power measurements for each power supply via I2C and alerts.")
@@ -4132,6 +4132,15 @@
 		(uuid "8b0d398c-4115-4660-8a73-7d722b827a2c")
 	)
 	(bus_entry
+		(at 114.3 179.07)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90fca78b-a98b-443c-937d-8b914dc5c1e5")
+	)
+	(bus_entry
 		(at 85.09 138.43)
 		(size -2.54 2.54)
 		(stroke
@@ -4157,6 +4166,15 @@
 			(type default)
 		)
 		(uuid "adfde2c1-f13c-4ded-83a1-95797c5839df")
+	)
+	(bus_entry
+		(at 111.76 179.07)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49db37c-dcd3-4ede-a468-f00ce06b2eef")
 	)
 	(bus_entry
 		(at 227.33 17.78)
@@ -4987,6 +5005,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 168.91) (xy 111.76 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452ee3a2-11d0-4213-b1f5-2a3f72bc181c")
+	)
+	(wire
+		(pts
 			(xy 129.54 68.58) (xy 134.62 68.58)
 		)
 		(stroke
@@ -5164,6 +5192,16 @@
 			(type default)
 		)
 		(uuid "568341a0-b037-4ec5-abf7-db120f2e8ded")
+	)
+	(wire
+		(pts
+			(xy 114.3 168.91) (xy 114.3 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5863660b-d448-4a73-96aa-0db9ad691926")
 	)
 	(wire
 		(pts
@@ -5555,6 +5593,16 @@
 		)
 		(uuid "88f0f975-a01c-4c2e-a164-d6fbbc10c464")
 	)
+	(bus
+		(pts
+			(xy 116.84 181.61) (xy 121.92 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b365982-fe23-49a9-91c4-665f8eb3a270")
+	)
 	(wire
 		(pts
 			(xy 45.72 29.21) (xy 45.72 25.4)
@@ -5764,6 +5812,16 @@
 			(type default)
 		)
 		(uuid "9b65298e-400c-4581-ad4e-e695924a8105")
+	)
+	(bus
+		(pts
+			(xy 116.84 181.61) (xy 114.3 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf9e6c1-74e2-4210-babd-4b72a662c822")
 	)
 	(wire
 		(pts
@@ -6985,6 +7043,16 @@
 		)
 		(uuid "100f8e7e-ba1b-40d2-93ec-65b9324cdaa8")
 	)
+	(label "SCL"
+		(at 111.76 179.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31769c87-9197-4139-8543-388cc9a90eff")
+	)
 	(label "CC1"
 		(at 85.09 146.05 0)
 		(effects
@@ -7115,6 +7183,16 @@
 		)
 		(uuid "e60cbf51-484d-4bee-b689-48abb16820b6")
 	)
+	(label "SDA"
+		(at 114.3 179.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e73e0ab8-361f-46e4-b3e6-f6ba4bb8a2d6")
+	)
 	(label "SCL"
 		(at 50.8 19.05 270)
 		(effects
@@ -7211,17 +7289,6 @@
 			(justify right)
 		)
 		(uuid "63cf20de-bf6a-4cf3-8c60-045bbc459010")
-	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
-		(at 114.3 168.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6e05b399-b0fe-4e68-bda8-0cdb86d0c1b9")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -7322,17 +7389,6 @@
 		)
 		(uuid "dd3493ba-f7fa-4be7-b195-c4bbb32309ac")
 	)
-	(hierarchical_label "SCL"
-		(shape bidirectional)
-		(at 111.76 168.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "de6246ed-0186-42df-ba4e-ddf5adf3c1de")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 72.39 142.24 270)
@@ -7343,6 +7399,17 @@
 			(justify right)
 		)
 		(uuid "e10f3f37-a2d5-421c-98bd-14f2a40fc1cd")
+	)
+	(hierarchical_label "{I2C}"
+		(shape bidirectional)
+		(at 121.92 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7b4a6e5-d669-4065-a882-42ad81ddcd1e")
 	)
 	(hierarchical_label "{ALERTS}"
 		(shape output)
@@ -7540,7 +7607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SOT23-8_DDF_TEX"
+		(property "Footprint" "Modelec:SOT23-8_DDF_TEX"
 			(at 134.62 58.42 0)
 			(effects
 				(font
@@ -7602,6 +7669,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -7922,6 +7990,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8365,6 +8434,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8641,6 +8711,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9046,6 +9117,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9090,7 +9162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT23-8_DDF_TEX"
+		(property "Footprint" "Modelec:SOT23-8_DDF_TEX"
 			(at 43.18 58.42 0)
 			(effects
 				(font
@@ -9152,6 +9224,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -9196,7 +9269,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "49c6b690-e3cb-42ee-a107-e838483b6a13")
 		(property "Reference" "C21"
 			(at 142.24 129.5399 0)
@@ -9271,11 +9343,12 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VJ0805Y104KXAMR"
-			(at 138.43 130.81 0)
+			(at 138.43 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9867,7 +9940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT23-8_DDF_TEX"
+		(property "Footprint" "Modelec:SOT23-8_DDF_TEX"
 			(at 219.71 57.15 0)
 			(effects
 				(font
@@ -9929,6 +10002,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -10802,7 +10876,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7cce9bf0-cd19-46ef-a573-b76d58c76aa6")
 		(property "Reference" "D4"
 			(at 154.94 101.9176 90)
@@ -10877,11 +10950,12 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ESDA25P35-1U1M"
-			(at 157.48 100.33 0)
+			(at 166.37 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11649,6 +11723,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12369,11 +12444,12 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VJ0805G225KXQTW1BC"
-			(at 176.53 100.33 0)
+			(at 188.468 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12418,7 +12494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT23-8_DDF_TEX"
+		(property "Footprint" "Modelec:SOT23-8_DDF_TEX"
 			(at 45.72 132.08 0)
 			(effects
 				(font
@@ -12480,6 +12556,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -12744,7 +12821,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c9680176-a210-4735-a4aa-4068061bd26b")
 		(property "Reference" "C19"
 			(at 154.94 148.5899 0)
@@ -12819,11 +12895,12 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VJ0805A331FXACW1BC"
-			(at 151.13 149.86 0)
+			(at 151.13 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13252,6 +13329,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
