@@ -2730,7 +2730,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 144.78 40.894 90)
 			(effects
 				(font
