@@ -623,6 +623,10 @@
     [
       "459e8b64-8c98-43d9-80d0-5d1e7550d13c",
       "Root"
+    ],
+    [
+      "ec39953e-344e-4c06-913e-74456dabb148",
+      "Motors current sensing"
     ]
   ],
   "text_variables": {}
