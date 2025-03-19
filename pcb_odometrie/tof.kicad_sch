@@ -1512,6 +1512,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Connecteurs pour modules ToF Pololu/ST"
+		(exclude_from_sim no)
+		(at 52.324 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "76fa0798-2558-4def-b0d1-9965fedcb739")
+	)
 	(junction
 		(at 121.92 62.23)
 		(diameter 0)
