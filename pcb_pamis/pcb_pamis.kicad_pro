@@ -665,6 +665,10 @@
     [
       "cd04cd30-6b87-4bc2-a277-438dac0065f3",
       "Root"
+    ],
+    [
+      "2779b1c0-c766-4085-bcc5-0e79e00f74a0",
+      "Drivers moteurs pas à pas"
     ]
   ],
   "text_variables": {}
