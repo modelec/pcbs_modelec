@@ -549,7 +549,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SOIC28-W_MC_MCH"
+			(property "Footprint" "Modelec:SOIC28-W_MC_MCH"
 				(at -20.32 13.97 0)
 				(effects
 					(font
@@ -908,14 +908,14 @@
 				(pin unspecified line
 					(at 20.32 13.97 180)
 					(length 7.62)
-					(name "GPA7"
+					(name "GPA0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -925,96 +925,6 @@
 				)
 				(pin unspecified line
 					(at 20.32 11.43 180)
-					(length 7.62)
-					(name "GPA6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 8.89 180)
-					(length 7.62)
-					(name "GPA5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 6.35 180)
-					(length 7.62)
-					(name "GPA4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 3.81 180)
-					(length 7.62)
-					(name "GPA3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 1.27 180)
-					(length 7.62)
-					(name "GPA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 -1.27 180)
 					(length 7.62)
 					(name "GPA1"
 						(effects
@@ -1032,16 +942,106 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -3.81 180)
+					(at 20.32 8.89 180)
 					(length 7.62)
-					(name "GPA0"
+					(name "GPA2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "21"
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 6.35 180)
+					(length 7.62)
+					(name "GPA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 3.81 180)
+					(length 7.62)
+					(name "GPA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 1.27 180)
+					(length 7.62)
+					(name "GPA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -1.27 180)
+					(length 7.62)
+					(name "GPA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -3.81 180)
+					(length 7.62)
+					(name "GPA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1550,13 +1550,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 80.01) (xy 167.64 80.01)
+			(xy 167.64 82.55) (xy 198.12 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03008cae-736e-4804-9620-0bea40197876")
+		(uuid "0274c251-f50c-4aa7-9c40-b0ba69edeb4a")
 	)
 	(wire
 		(pts
@@ -1570,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 68.58) (xy 200.66 68.58)
+			(xy 247.65 68.58) (xy 207.01 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1620,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 68.58) (xy 200.66 80.01)
+			(xy 207.01 68.58) (xy 207.01 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1707,6 +1707,16 @@
 			(type default)
 		)
 		(uuid "1e52d079-fa51-48fb-b16c-2f0eb0c4e382")
+	)
+	(wire
+		(pts
+			(xy 195.58 114.3) (xy 195.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e51e34-92fc-4ccf-83a4-02930b0f16fa")
 	)
 	(wire
 		(pts
@@ -1810,16 +1820,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 111.76) (xy 198.12 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fd1ba25-7e55-44fa-859c-2d2478391c1e")
-	)
-	(wire
-		(pts
 			(xy 217.17 138.43) (xy 105.41 138.43)
 		)
 		(stroke
@@ -1827,6 +1827,16 @@
 			(type default)
 		)
 		(uuid "59c5ac49-65ca-4aea-9ffd-eaa6ada6e98e")
+	)
+	(wire
+		(pts
+			(xy 167.64 87.63) (xy 207.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a185712-d40d-483f-a2ff-9b2c9310d2c4")
 	)
 	(wire
 		(pts
@@ -1857,6 +1867,16 @@
 			(type default)
 		)
 		(uuid "5e6c6b31-6d08-4345-b269-63caef2c50b3")
+	)
+	(wire
+		(pts
+			(xy 195.58 80.01) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5812c4-d92e-4918-af09-d7c695f3fa1e")
 	)
 	(wire
 		(pts
@@ -1917,6 +1937,16 @@
 			(type default)
 		)
 		(uuid "746768d0-6e78-4bee-895c-349186a33093")
+	)
+	(wire
+		(pts
+			(xy 167.64 85.09) (xy 200.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75fc8664-bf13-4210-9b90-61e06b9e3de8")
 	)
 	(wire
 		(pts
@@ -2070,16 +2100,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 82.55) (xy 200.66 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab866fb0-158b-4168-9648-64f953a05eb2")
-	)
-	(wire
-		(pts
 			(xy 167.64 113.03) (xy 171.45 113.03)
 		)
 		(stroke
@@ -2127,16 +2147,6 @@
 			(type default)
 		)
 		(uuid "b7893f81-cb31-4ef6-a20f-21a75bc851ac")
-	)
-	(wire
-		(pts
-			(xy 195.58 114.3) (xy 195.58 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc5f33f1-9f27-4f6e-a72d-c84dfce2bd20")
 	)
 	(wire
 		(pts
@@ -2190,7 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 90.17) (xy 200.66 82.55)
+			(xy 200.66 90.17) (xy 200.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2210,26 +2220,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 85.09) (xy 167.64 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dac6d9d1-b568-4386-9a8c-f2fc202f0d79")
-	)
-	(wire
-		(pts
-			(xy 195.58 87.63) (xy 167.64 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddd153b2-abd6-47c3-a9be-f08ea0680f06")
-	)
-	(wire
-		(pts
 			(xy 60.96 111.76) (xy 88.9 111.76)
 		)
 		(stroke
@@ -2237,6 +2227,16 @@
 			(type default)
 		)
 		(uuid "e0163013-a2fb-44c6-b988-b8a566bae0ff")
+	)
+	(wire
+		(pts
+			(xy 198.12 82.55) (xy 198.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c54ece-3e09-476a-9773-d6556b30317e")
 	)
 	(wire
 		(pts
@@ -2632,7 +2632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical"
 			(at 55.88 82.55 0)
 			(effects
 				(font
@@ -2779,7 +2779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical"
 			(at 55.88 125.73 0)
 			(effects
 				(font
@@ -2852,7 +2852,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 121.92 50.292 0)
+			(at 121.92 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 180.848 72.39 90)
 			(effects
 				(font
@@ -3387,7 +3387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical"
 			(at 252.73 104.14 0)
 			(effects
 				(font
@@ -3865,7 +3865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC28-W_MC_MCH"
+		(property "Footprint" "Modelec:SOIC28-W_MC_MCH"
 			(at 127 80.01 0)
 			(effects
 				(font
@@ -4082,7 +4082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical"
 			(at 252.73 82.55 0)
 			(effects
 				(font
@@ -4227,7 +4227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 121.92 61.2648 0)
 			(effects
 				(font
@@ -4296,7 +4296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical"
 			(at 252.73 125.73 0)
 			(effects
 				(font
@@ -4369,7 +4369,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 179.07 62.738 90)
+			(at 179.07 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,7 +4510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical"
 			(at 55.88 60.96 0)
 			(effects
 				(font
@@ -4591,7 +4591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical"
 			(at 252.73 60.96 0)
 			(effects
 				(font
@@ -4808,7 +4808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical"
 			(at 55.88 104.14 0)
 			(effects
 				(font
