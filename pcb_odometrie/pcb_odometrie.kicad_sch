@@ -5710,7 +5710,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical"
+		(property "Footprint" "Modelec:CONN14_3220-14_CNC"
 			(at 49.53 132.08 0)
 			(effects
 				(font

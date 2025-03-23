@@ -1512,6 +1512,56 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TOF3"
+		(exclude_from_sim no)
+		(at 35.56 123.952 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "00ec65d7-dbfb-4f18-a803-0c762591828c")
+	)
+	(text "TOF6"
+		(exclude_from_sim no)
+		(at 269.494 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c0a8625-3bd1-4929-b712-8a2bbdbdcc35")
+	)
+	(text "TOF7"
+		(exclude_from_sim no)
+		(at 270.002 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "437e4abd-7af7-45fe-808a-5c99219c1a5b")
+	)
+	(text "TOF2"
+		(exclude_from_sim no)
+		(at 34.798 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c8dae68-dc46-4e52-b302-b9a8acd2bdb6")
+	)
+	(text "TOF0"
+		(exclude_from_sim no)
+		(at 35.052 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "65a92416-184b-4341-9ea7-83a58ceb820e")
+	)
 	(text "Connecteurs pour modules ToF Pololu/ST"
 		(exclude_from_sim no)
 		(at 52.324 41.91 0)
@@ -1521,6 +1571,36 @@
 			)
 		)
 		(uuid "76fa0798-2558-4def-b0d1-9965fedcb739")
+	)
+	(text "TOF1"
+		(exclude_from_sim no)
+		(at 34.544 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98d7a5a7-c49e-47e7-8ce2-18d43527340c")
+	)
+	(text "TOF4"
+		(exclude_from_sim no)
+		(at 269.24 56.642 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9b71c91-432a-423b-8a2e-095061aa82ee")
+	)
+	(text "TOF5"
+		(exclude_from_sim no)
+		(at 269.494 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eaf06292-292d-4c39-88dc-d6a0c2af53c4")
 	)
 	(junction
 		(at 121.92 62.23)
