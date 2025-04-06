@@ -491,6 +491,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_3_Bridged12"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_1"
+				(arc
+					(start -3.048 0.508)
+					(mid -1.651 0.9912)
+					(end -0.254 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Modelec:TMC2209_SILENTSTEPSTICK"
 			(pin_names
 				(offset 1.016)
@@ -1373,16 +1561,6 @@
 		)
 		(uuid "23e05478-2177-4965-b932-015d319fd44c")
 	)
-	(text "TODO : vérifier Spread et PDN : à quoi ça sert ? Est ce que ça vaut le coup de connecter ?"
-		(exclude_from_sim no)
-		(at 217.678 147.574 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "824418d7-1207-40e9-8c40-3cc654f430df")
-	)
 	(text "DIAG = Diagnostic output => VIO si erreur = On peut mettre une led mais pas obligatoire"
 		(exclude_from_sim no)
 		(at 216.408 56.896 0)
@@ -1403,9 +1581,19 @@
 		)
 		(uuid "b6cbb611-dae7-4420-9f55-d5b8304d17a4")
 	)
+	(text "SPRD : choix entre StealthChop et SpreadCycle\n"
+		(exclude_from_sim no)
+		(at 74.422 169.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b918a61b-db3d-4d0d-97c8-c8e51a5fb977")
+	)
 	(text "Pull Down sur les DISAble pour activer les modules par défaut"
 		(exclude_from_sim no)
-		(at 56.642 179.832 0)
+		(at 48.006 36.068 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1494,16 +1682,8 @@
 		(uuid "82397e52-d783-4686-bcd8-b58c718786b0")
 	)
 	(no_connect
-		(at 91.44 60.96)
-		(uuid "8e68ed49-cf83-43c9-ac81-6840b51f2c5a")
-	)
-	(no_connect
 		(at 120.65 139.7)
 		(uuid "9c14f146-da58-47a2-9735-c79d88973a07")
-	)
-	(no_connect
-		(at 91.44 107.95)
-		(uuid "a28dc343-7425-4c6f-b35f-e0bc03392f7e")
 	)
 	(no_connect
 		(at 120.65 48.26)
@@ -1517,9 +1697,15 @@
 		(at 120.65 142.24)
 		(uuid "e47f4dd7-cd87-4a81-bc41-f9a05bda8679")
 	)
-	(no_connect
-		(at 91.44 154.94)
-		(uuid "efef0ce5-1b0c-4611-b18e-b5df91e76377")
+	(wire
+		(pts
+			(xy 91.44 107.95) (xy 71.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069c02b6-a0fe-4d03-aa9f-eab66c246050")
 	)
 	(wire
 		(pts
@@ -1793,6 +1979,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 154.94) (xy 91.44 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96647d6c-3306-4af1-894d-8121d0559459")
+	)
+	(wire
+		(pts
 			(xy 82.55 124.46) (xy 87.63 124.46)
 		)
 		(stroke
@@ -1820,6 +2016,16 @@
 			(type default)
 		)
 		(uuid "b3cbf465-52be-4d8c-8217-72b9cfc64e44")
+	)
+	(wire
+		(pts
+			(xy 69.85 60.96) (xy 91.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc84cddf-ec9d-4469-a552-89eca0b66779")
 	)
 	(wire
 		(pts
@@ -2115,6 +2321,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 66.04 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d81182b-0457-430d-aaf4-a8a710def520")
+		(property "Reference" "#PWR058"
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ccf3853-545c-4ffb-aafe-800dd93c73f6")
+		)
+		(instances
+			(project "pcb_pamis"
+				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 59.69 77.47 90)
 		(unit 1)
@@ -2176,6 +2448,72 @@
 			(project ""
 				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 66.04 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1563560c-9573-40cf-b454-4fb178af52aa")
+		(property "Reference" "#PWR063"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 66.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 66.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3591a1f0-76ce-4a54-956a-cbb0e46c880a")
+		)
+		(instances
+			(project "pcb_pamis"
+				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2750,6 +3088,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 67.31 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3531cde3-42dd-4d56-a54b-47f5cb56ed03")
+		(property "Reference" "#PWR062"
+			(at 67.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 67.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d47d250-51db-4eab-922d-36b749f45e93")
+		)
+		(instances
+			(project "pcb_pamis"
+				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 152.4 270)
 		(unit 1)
@@ -2877,6 +3281,79 @@
 			(project "pcb_pamis"
 				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 67.31 107.95 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49f85f17-7fe6-4fa7-9eaf-c1da350b95c1")
+		(property "Reference" "JP2"
+			(at 64.77 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Bridged12"
+			(at 64.77 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16c0ab3a-c8d0-4da4-8380-34ee6a3821cd")
+		)
+		(pin "2"
+			(uuid "1c27d0fa-1bcd-4eae-b729-d10a8e361221")
+		)
+		(pin "3"
+			(uuid "f63cdab9-4a00-49bd-ab77-63f9656ab9b4")
+		)
+		(instances
+			(project "pcb_pamis"
+				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -3557,6 +4034,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 67.31 154.94 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7233071e-a22d-4006-bf47-4c90e190d429")
+		(property "Reference" "JP3"
+			(at 64.77 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Bridged12"
+			(at 64.77 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 67.31 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27ee9f26-8758-42a9-a016-db1f991962cc")
+		)
+		(pin "2"
+			(uuid "a6d5e515-ef99-44c6-93e6-448ec8fe5907")
+		)
+		(pin "3"
+			(uuid "dca66a29-3bef-4385-9188-67855726b709")
+		)
+		(instances
+			(project "pcb_pamis"
+				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 146.05 138.43 0)
 		(unit 1)
@@ -3702,7 +4252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b4dc4a0-a586-4e39-9b0f-ad6dfec43ec9")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 128.27 149.8599 0)
 			(effects
 				(font
@@ -3762,7 +4312,7 @@
 		(instances
 			(project "pcb_pamis"
 				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4114,7 +4664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5722722-6277-4b83-a953-90d639474150")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 128.27 55.8799 0)
 			(effects
 				(font
@@ -4174,7 +4724,139 @@
 		(instances
 			(project ""
 				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
-					(reference "J4")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 67.31 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5cfaf14-92f5-4d0c-ba85-a83a32ad8b80")
+		(property "Reference" "#PWR061"
+			(at 67.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 67.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bcc6b10-ddbe-4cd2-baab-f480926404cc")
+		)
+		(instances
+			(project "pcb_pamis"
+				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac8e4974-32e9-42ab-8d1f-1e4274b99c82")
+		(property "Reference" "#PWR060"
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb14a24a-1942-4bdf-b94b-fbdf04ff42d2")
+		)
+		(instances
+			(project "pcb_pamis"
+				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4190,7 +4872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfde10b7-04cc-4f3e-9a23-8fbdafcae80f")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 128.27 102.8699 0)
 			(effects
 				(font
@@ -4250,7 +4932,7 @@
 		(instances
 			(project "pcb_pamis"
 				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4450,6 +5132,145 @@
 			(project "pcb_pamis"
 				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3b7ae31-2131-4889-9f74-5e21394defa1")
+		(property "Reference" "#PWR059"
+			(at 67.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53ee2ce2-cfcc-45e1-b0ca-ad44e8cbb805")
+		)
+		(instances
+			(project "pcb_pamis"
+				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 66.04 60.96 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7408592-101a-4225-91bd-f7d531be0014")
+		(property "Reference" "JP1"
+			(at 63.5 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Bridged12"
+			(at 63.5 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7480418c-fbe3-497d-abf3-4e0d0894abe1")
+		)
+		(pin "2"
+			(uuid "1e60ec66-37b4-48da-ab93-dd0af3412549")
+		)
+		(pin "3"
+			(uuid "5c96a810-a7e8-41f3-962a-64a5b0765474")
+		)
+		(instances
+			(project ""
+				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3/2779b1c0-c766-4085-bcc5-0e79e00f74a0"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
