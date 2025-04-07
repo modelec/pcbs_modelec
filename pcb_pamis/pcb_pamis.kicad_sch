@@ -5,6 +5,356 @@
 	(uuid "cd04cd30-6b87-4bc2-a277-438dac0065f3")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Battery_Cell_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT3"
+				(at -10.668 -0.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at -8.128 -0.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Modelec:BAT_1051_CR123A"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_1_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battery_Cell_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT2"
+				(at 0 14.224 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at -1.778 14.478 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Modelec:BAT_1051_CR123A"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_2_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_2_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_A"
 			(pin_names
 				(offset 1.016)
@@ -12,25 +362,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 11.43 0)
+			(property "Reference" "J1"
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "USB_A"
-				(at -5.08 8.89 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Modelec:GCT_USB4105-GF-A"
 				(at 3.81 -1.27 0)
 				(effects
 					(font
@@ -49,7 +397,7 @@
 				)
 			)
 			(property "Description" "USB Type A connector"
-				(at 0 0 0)
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -77,8 +425,8 @@
 			)
 			(symbol "USB_A_0_1"
 				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 7.62)
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -246,7 +594,64 @@
 							)
 						)
 					)
-					(number "5"
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -264,7 +669,26 @@
 							)
 						)
 					)
-					(number "4"
+					(number "A1_B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1_A12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -282,7 +706,26 @@
 							)
 						)
 					)
-					(number "1"
+					(number "A4_B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4_A9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -300,7 +743,26 @@
 							)
 						)
 					)
-					(number "3"
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -318,7 +780,101 @@
 							)
 						)
 					)
-					(number "2"
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1172,25 +1728,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "BT1"
+				(at 2.032 -9.398 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
+				(at 3.81 -9.398 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Modelec:BAT_1051_CR123A"
 				(at 0 1.524 90)
 				(effects
 					(font
@@ -1309,7 +1863,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1327,7 +1881,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4864,6 +5418,10 @@
 		(uuid "95e5305e-b913-4b71-aa1e-ac0ce9133f9f")
 	)
 	(no_connect
+		(at 30.48 77.47)
+		(uuid "a5daf2e2-38be-41e4-889f-0f009606c101")
+	)
+	(no_connect
 		(at 60.96 33.02)
 		(uuid "b2e346d0-03dc-41d8-83db-2a3bb8881d9b")
 	)
@@ -8217,7 +8775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1755736"
+		(property "Footprint" "Modelec:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical"
 			(at 63.83 194.31 0)
 			(effects
 				(font
@@ -8957,7 +9515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 17.78 186.69 0)
 			(effects
 				(font
@@ -9198,6 +9756,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Battery_Cell_1")
 		(lib_id "Device:Battery_Cell")
 		(at 35.56 30.48 270)
 		(unit 1)
@@ -9222,7 +9781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Modelec:BAT_1051_CR123A"
 			(at 37.084 30.48 90)
 			(effects
 				(font
@@ -9249,10 +9808,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "N"
 			(uuid "d9b8567e-7a65-44c2-ad6f-4659e965f734")
 		)
-		(pin "2"
+		(pin "P"
 			(uuid "f6ca6677-4a64-42c3-9f86-a2ca57c55b7a")
 		)
 		(instances
@@ -11200,7 +11759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Receptacle_GCT_USB1046"
+		(property "Footprint" "Modelec:GCT_USB4105-GF-A"
 			(at 26.67 72.39 0)
 			(effects
 				(font
@@ -11219,7 +11778,7 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
-			(at 22.86 71.12 0)
+			(at 22.86 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11227,20 +11786,53 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "B7"
 			(uuid "1ef1dd20-b523-417b-b4f3-9f03049ce5fe")
 		)
-		(pin "4"
+		(pin "A1_B12"
 			(uuid "442c0051-2e97-4af4-b79b-ecb017a01797")
 		)
-		(pin "5"
+		(pin "SH2"
 			(uuid "cb9e4167-b9ac-4295-933f-4d5c7500d669")
 		)
-		(pin "1"
+		(pin "A4_B9"
 			(uuid "b3533054-509a-41d3-af8a-975edc510f00")
 		)
-		(pin "3"
+		(pin "A7"
 			(uuid "c5cc4c75-293b-40cc-9f8f-60dc9c6d6880")
+		)
+		(pin "SH4"
+			(uuid "bf652558-4274-49ec-aa41-3ba7452739c4")
+		)
+		(pin "SH1"
+			(uuid "797d991b-ed94-482c-a7a9-76003d37cc2d")
+		)
+		(pin "SH3"
+			(uuid "9e2ec673-04ef-4181-b720-6fa39ed10a4b")
+		)
+		(pin "B6"
+			(uuid "597ac3a7-0b4e-4d1f-9811-83eadda01ea8")
+		)
+		(pin "A6"
+			(uuid "0a537353-5c27-48ad-ba8b-67ff68e85d0a")
+		)
+		(pin "B1_A12"
+			(uuid "ee5a8b6a-f5fb-4d67-9981-bce4e52c0202")
+		)
+		(pin "B4_A9"
+			(uuid "566d808e-dc5c-491c-819f-b62424c3127e")
+		)
+		(pin "A8"
+			(uuid "a453ec26-421f-430e-ba10-f75f1a7ccbbc")
+		)
+		(pin "A5"
+			(uuid "7713663d-452f-4207-a6f2-cc745429f82b")
+		)
+		(pin "B5"
+			(uuid "dbae8a54-25d5-42f6-9e1c-8b79bc641195")
+		)
+		(pin "B8"
+			(uuid "a465e10b-e77f-49a2-b816-9c1132d87d03")
 		)
 		(instances
 			(project ""
@@ -11604,6 +12196,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Battery_Cell_2")
 		(lib_id "Device:Battery_Cell")
 		(at 38.1 38.1 90)
 		(unit 1)
@@ -11628,7 +12221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Modelec:BAT_1051_CR123A"
 			(at 36.576 38.1 90)
 			(effects
 				(font
@@ -11655,10 +12248,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "P"
 			(uuid "25b88ca0-30a4-41a4-bc5f-972fe71f02dd")
 		)
-		(pin "2"
+		(pin "N"
 			(uuid "f71b15fc-f1ad-4509-975d-583421925862")
 		)
 		(instances
@@ -11977,7 +12570,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Modelec:BAT_1051_CR123A"
 			(at 37.084 45.72 90)
 			(effects
 				(font
@@ -12004,10 +12597,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "N"
 			(uuid "efe9d320-3f28-4329-a3fb-3d3002d02244")
 		)
-		(pin "2"
+		(pin "P"
 			(uuid "06cbd373-e4ed-4744-a708-c9202ffac6d5")
 		)
 		(instances

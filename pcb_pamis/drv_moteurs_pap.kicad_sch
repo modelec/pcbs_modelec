@@ -2810,7 +2810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "Modelec:MODULE_TMC2209_SILENTSTEPSTICK"
 			(at 104.14 147.32 0)
 			(effects
 				(font
@@ -3314,7 +3314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical"
 			(at 67.31 107.95 0)
 			(effects
 				(font
@@ -3385,7 +3385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "Modelec:MODULE_TMC2209_SILENTSTEPSTICK"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -3622,7 +3622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "Modelec:MODULE_TMC2209_SILENTSTEPSTICK"
 			(at 104.14 53.34 0)
 			(effects
 				(font
@@ -4061,7 +4061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical"
 			(at 67.31 154.94 0)
 			(effects
 				(font
@@ -4134,7 +4134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
 			(at 146.05 138.43 0)
 			(effects
 				(font
@@ -4612,7 +4612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
 			(at 146.05 44.45 0)
 			(effects
 				(font
@@ -5231,7 +5231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -5304,7 +5304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
 			(at 146.05 91.44 0)
 			(effects
 				(font
