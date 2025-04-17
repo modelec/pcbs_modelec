@@ -813,7 +813,7 @@
 			(uuid "1fcae9e0-33f4-402f-acde-9e8c4f4bd684")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/allan/Documents/pcbs_modelec/Lib_modelec/composants/LIB_TMC2209_SILENTSTEPSTICK/TMC2209_SILENTSTEPSTICK.step"
+		(model "${KIPRJMOD}/../Lib_modelec/composants/LIB_TMC2209_SILENTSTEPSTICK/TMC2209_SILENTSTEPSTICK.step"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -1503,7 +1503,7 @@
 			(uuid "6a67a3ae-0f3b-42b1-8ed7-31908d1576d9")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/allan/Documents/pcbs_modelec/Lib_modelec/composants/LIB_1051_CR123A/1051.step"
+		(model "${KIPRJMOD}/../Lib_modelec/composants/LIB_1051_CR123A/1051.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7974,7 +7974,7 @@
 			(uuid "747a819f-a3cc-4001-bcfd-a5a822c12233")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/allan/Documents/pcbs_modelec/Lib_modelec/composants/LIB_1051_CR123A/1051.step"
+		(model "${KIPRJMOD}/../Lib_modelec/composants/LIB_1051_CR123A/1051.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9926,7 +9926,7 @@
 			(uuid "05198506-1702-48b7-a1f5-cf4235985119")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/allan/Documents/pcbs_modelec/Lib_modelec/composants/LIB_TMC2209_SILENTSTEPSTICK/TMC2209_SILENTSTEPSTICK.step"
+		(model "${KIPRJMOD}/../Lib_modelec/composants/LIB_TMC2209_SILENTSTEPSTICK/TMC2209_SILENTSTEPSTICK.step"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -13493,7 +13493,7 @@
 		(descr "TMR 6-0510")
 		(tags "Power Supply")
 		(property "Reference" "PS1"
-			(at 8.9 2.25 0)
+			(at 8.9 1.225 0)
 			(layer "F.SilkS")
 			(uuid "1a314cbf-1892-40fb-a15c-424b2163581e")
 			(effects
@@ -13544,7 +13544,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81037b60-e316-46d4-b6a1-a3ea6aaccfbe")
+			(uuid "2560c741-abdd-44b8-99df-f9fed844952f")
 			(effects
 				(font
 					(size 1 1)
@@ -13557,7 +13557,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bacddcc4-0aa1-47e7-b7f3-e4785c741cdb")
+			(uuid "6bc498b9-9ed8-41bc-92dd-08b7ad8e65a3")
 			(effects
 				(font
 					(size 1 1)
@@ -13570,7 +13570,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9fbb274e-764c-475d-a1af-d9ea4e56ce20")
+			(uuid "38ad54f3-b4e9-4cfa-b102-26a36e8235c1")
 			(effects
 				(font
 					(size 1 1)
@@ -13583,7 +13583,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98cb1e98-9724-48d3-86a2-e671bc12f5b8")
+			(uuid "b1e7f8d7-9478-483b-9ae8-7199391e8be4")
 			(effects
 				(font
 					(size 1 1)
@@ -13596,7 +13596,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1bac859e-f54a-49f8-a71d-8a98ad9d2d15")
+			(uuid "f6e6c842-36ed-4304-924a-c7e23c4f8cc9")
 			(effects
 				(font
 					(size 1 1)
@@ -13609,7 +13609,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6331961a-1af5-48f2-8c2a-b413f9a30d13")
+			(uuid "ba7ada73-568a-401f-aae4-1117e479b69f")
 			(effects
 				(font
 					(size 1 1)
@@ -13622,7 +13622,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b609196-c524-46b0-963d-8803edeecaa6")
+			(uuid "242f7eb6-7e90-4d88-8191-d0a023c4866e")
 			(effects
 				(font
 					(size 1 1)
@@ -13642,7 +13642,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b668a2dd-a70f-42c6-83ef-85adf0cc13f9")
+			(uuid "ee8921c4-3a87-4a97-9870-fdf1654643bf")
 		)
 		(fp_line
 			(start -2.6 0)
@@ -13652,7 +13652,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d056a18e-9070-459a-84fc-1cb1fd4e3615")
+			(uuid "fabd2aef-efff-441d-8ba2-d20802e0b064")
 		)
 		(fp_line
 			(start -2.5 0)
@@ -13662,7 +13662,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b1224569-27d9-43a1-afff-f8ec6dd88ee6")
+			(uuid "b25894f7-e0c3-4a21-b7a9-e784bf64de7f")
 		)
 		(fp_line
 			(start -2 -3.325)
@@ -13672,7 +13672,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e0d4813f-90c5-4219-8a7f-8b7130b756a9")
+			(uuid "6d1dbd6f-91e2-4af6-9a62-f37dff1d706c")
 		)
 		(fp_line
 			(start -2 5.775)
@@ -13682,7 +13682,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "63b17681-b87a-40c9-ab85-1f04c2fc4fc2")
+			(uuid "209e90a5-3763-42d2-932b-8d7aabca4df0")
 		)
 		(fp_line
 			(start 19.8 -3.325)
@@ -13692,7 +13692,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dbe57ba6-47a4-4cb3-91f0-c7dd4b3e2f45")
+			(uuid "28d7599a-7072-4a27-839a-6baa9fceed52")
 		)
 		(fp_line
 			(start 19.8 5.775)
@@ -13702,7 +13702,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fe82127a-963f-406e-b8b3-8c334fd94f41")
+			(uuid "16fcb908-3358-4b15-896c-3630163c750a")
 		)
 		(fp_arc
 			(start -2.6 0)
@@ -13713,7 +13713,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ccdb4942-48b2-4703-9ac8-95968451360b")
+			(uuid "61b8734b-5814-4fc9-a696-09036a4051da")
 		)
 		(fp_arc
 			(start -2.5 0)
@@ -13724,7 +13724,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "21ee83f3-b067-4dd8-ba30-87caf44836f9")
+			(uuid "0d656cf7-40d6-494b-bd61-20d76114887e")
 		)
 		(fp_arc
 			(start -2.5 0)
@@ -13735,7 +13735,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dd821e1f-0d91-484b-a20e-0b1c6bd15d42")
+			(uuid "3c2e51c5-f48e-410e-b5e7-a166f82a840c")
 		)
 		(fp_line
 			(start -3 -4.325)
@@ -13745,7 +13745,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1d69275d-dce8-4b35-8f36-9d1a708939d3")
+			(uuid "ce2a489e-c79a-4317-af60-4eac32e47aa7")
 		)
 		(fp_line
 			(start -3 6.775)
@@ -13755,7 +13755,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cb93c32f-f2ac-416a-a7b8-1e88e593eeaa")
+			(uuid "d0e456e3-8a40-408a-b69e-7485d2ccbe65")
 		)
 		(fp_line
 			(start 20.8 -4.325)
@@ -13765,7 +13765,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2e122c71-d853-4b19-b91c-0adbb62c9dc5")
+			(uuid "657f2aa5-3252-4298-a778-ae33ff49616e")
 		)
 		(fp_line
 			(start 20.8 6.775)
@@ -13775,7 +13775,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "88ea06a2-547c-4cc0-ad83-2083075eca66")
+			(uuid "cef61edf-bc73-4d29-bb04-4fbc5cc6efed")
 		)
 		(fp_line
 			(start -2 -3.325)
@@ -13785,7 +13785,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "617853d7-b20e-4c50-b206-4ddf9ebbd798")
+			(uuid "c34377cf-6733-4bb5-82c4-0a126165629c")
 		)
 		(fp_line
 			(start -2 5.775)
@@ -13795,7 +13795,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "36af92dd-1976-499a-8464-9427500b4962")
+			(uuid "14534da9-9c23-4cdb-9e6b-2f4b3816edda")
 		)
 		(fp_line
 			(start 19.8 -3.325)
@@ -13805,7 +13805,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e94f3955-a754-4a7a-a79d-289db522361f")
+			(uuid "61494997-6c4b-43d1-a663-ef7d78a56845")
 		)
 		(fp_line
 			(start 19.8 5.775)
@@ -13815,7 +13815,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f116b4d6-0b80-4879-b7b1-f27affc32b04")
+			(uuid "1f494d77-6578-455b-b045-9c8daf2bfc13")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 8.9 1.225 0)
@@ -14194,7 +14194,7 @@
 			(uuid "a1bf57d0-aeff-4eeb-9105-db24c4cffc70")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/allan/Documents/pcbs_modelec/Lib_modelec/composants/LIB_1051_CR123A/1051.step"
+		(model "${KIPRJMOD}/../Lib_modelec/composants/LIB_1051_CR123A/1051.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17123,7 +17123,7 @@
 			(uuid "0bf7b1ca-567c-4e27-845e-1244ba27f188")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/allan/Documents/pcbs_modelec/Lib_modelec/composants/LIB_TMC2209_SILENTSTEPSTICK/TMC2209_SILENTSTEPSTICK.step"
+		(model "${KIPRJMOD}/../Lib_modelec/composants/LIB_TMC2209_SILENTSTEPSTICK/TMC2209_SILENTSTEPSTICK.step"
 			(offset
 				(xyz 0 0 4)
 			)
