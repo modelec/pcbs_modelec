@@ -266,7 +266,7 @@
 		(uuid "9f1eb136-5699-4f44-8136-9ddd8d546b90")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/allan/Documents/pcbs_modelec/Lib_modelec/composants/LIB_1051_CR123A/1051.step"
+	(model "${KIPRJMOD}/../Lib_modelec/composants/LIB_1051_CR123A/1051.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -309,7 +309,7 @@
 		(uuid "6fb09f42-afa0-40f4-99df-c2832bbf2660")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/allan/Documents/pcbs_modelec/Lib_modelec/composants/LIB_3220_14_0100_00_CONN14PINST/3220-14-0100-00.STEP"
+	(model "${KIPRJMOD}/../Lib_modelec/composants/LIB_3220_14_0100_00_CONN14PINST/3220-14-0100-00.STEP"
 		(offset
 			(xyz 3.8 -0.6 0)
 		)

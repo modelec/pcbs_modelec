@@ -355,7 +355,7 @@
 		(uuid "a5d4caa1-b8a1-4bc7-8a0c-7f1b473507f5")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/allan/Documents/pcbs_modelec/Lib_modelec/composants/LIB_TMC2209_SILENTSTEPSTICK/TMC2209_SILENTSTEPSTICK.step"
+	(model "${KIPRJMOD}/../Lib_modelec/composants/LIB_TMC2209_SILENTSTEPSTICK/TMC2209_SILENTSTEPSTICK.step"
 		(offset
 			(xyz 0 0 4)
 		)

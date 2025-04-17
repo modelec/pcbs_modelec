@@ -506,7 +506,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pcb_pamis.glb",
       "svg": "",
       "vrml": ""
     },
