@@ -23270,6 +23270,82 @@
 	(dimension
 		(type orthogonal)
 		(layer "F.Cu")
+		(uuid "5b0e46a2-c01f-4b8b-a710-4cce36e828e6")
+		(pts
+			(xy 73.5 31.5) (xy 73.5 124.5)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "93"
+			(at 71.7 78 90)
+			(layer "F.Cu")
+			(uuid "5b0e46a2-c01f-4b8b-a710-4cce36e828e6")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "66fbdd0b-ac01-4371-b120-49ede92f92b2")
+		(pts
+			(xy 73.5 31.5) (xy 144.5 31.5)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "71"
+			(at 109 29.3 0)
+			(layer "F.Cu")
+			(uuid "66fbdd0b-ac01-4371-b120-49ede92f92b2")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
 		(uuid "ca030834-435e-4863-90db-85c431eec5d5")
 		(pts
 			(xy 69.5 28) (xy 148.5 28)
@@ -23312,7 +23388,7 @@
 		(pts
 			(xy 78 28) (xy 78 128)
 		)
-		(height -9)
+		(height -13.1)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -23325,14 +23401,14 @@
 		(style
 			(thickness 0.2)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "100"
-			(at 67.2 78 90)
+			(at 62.5 78 90)
 			(layer "F.Cu")
 			(uuid "ec14585f-8d0d-4ab7-ae26-bd7de3aea23e")
 			(effects
