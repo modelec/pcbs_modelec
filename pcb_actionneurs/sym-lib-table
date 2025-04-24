@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Modelec")(type "KiCad")(uri "${KIPRJMOD}/../Lib_modelec/Modelec.kicad_sym")(options "")(descr ""))
+)
