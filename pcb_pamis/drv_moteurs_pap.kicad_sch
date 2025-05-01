@@ -4125,7 +4125,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF 50V"
+		(property "Value" "100uF 16V"
 			(at 148.59 139.1538 0)
 			(effects
 				(font
@@ -4134,7 +4134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 146.05 138.43 0)
 			(effects
 				(font
@@ -4603,7 +4603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF 50V"
+		(property "Value" "100uF 16V"
 			(at 148.59 45.1738 0)
 			(effects
 				(font
@@ -4612,7 +4612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 146.05 44.45 0)
 			(effects
 				(font
@@ -5295,7 +5295,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF 50V"
+		(property "Value" "100uF 16V"
 			(at 148.59 92.1638 0)
 			(effects
 				(font
@@ -5304,7 +5304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 146.05 91.44 0)
 			(effects
 				(font
