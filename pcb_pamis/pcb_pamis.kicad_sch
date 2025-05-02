@@ -5699,12 +5699,6 @@
 		(uuid "a12718e6-40d6-4000-bfa5-1fb4f82adf2c")
 	)
 	(junction
-		(at 43.18 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aabc12fa-cd02-4e5f-b199-6000c04ad0aa")
-	)
-	(junction
 		(at 200.66 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5745,6 +5739,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4a1e389-0892-4105-a344-84dfec875dce")
+	)
+	(junction
+		(at 46.99 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df6b32ba-b7a0-4ed7-b747-cdcf9abb40be")
 	)
 	(junction
 		(at 25.4 120.65)
@@ -5913,6 +5913,16 @@
 			(type default)
 		)
 		(uuid "045a8b61-b550-4a6a-9482-919c341f1564")
+	)
+	(wire
+		(pts
+			(xy 44.45 30.48) (xy 46.99 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063d9804-b065-489d-b96a-8a08d7fa8bc2")
 	)
 	(wire
 		(pts
@@ -6326,7 +6336,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 27.94) (xy 46.99 33.02)
+			(xy 46.99 30.48) (xy 46.99 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462aab45-87eb-495e-b301-163f92a20112")
+	)
+	(wire
+		(pts
+			(xy 46.99 27.94) (xy 46.99 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6546,7 +6566,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 45.72) (xy 40.64 45.72)
+			(xy 40.64 45.72) (xy 46.99 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7123,16 +7143,6 @@
 			(type default)
 		)
 		(uuid "d946227a-f2a3-43d6-98f9-dfe1d9b960e7")
-	)
-	(wire
-		(pts
-			(xy 43.18 45.72) (xy 46.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9dd9416-0cad-4f56-b8d8-03c4ffe8b7ec")
 	)
 	(wire
 		(pts
@@ -9773,71 +9783,6 @@
 			(project ""
 				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 43.18 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d1eaba7-4562-414f-89ce-0af781465d73")
-		(property "Reference" "#PWR032"
-			(at 43.18 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 43.18 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3fecfd5-de67-448d-977c-999e96cbcdd8")
-		)
-		(instances
-			(project "pcb_pamis"
-				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12539,6 +12484,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98965fc5-e43a-4a79-bc95-31e4dc75883c")
+		(property "Reference" "#PWR032"
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 44.45 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19aa90a5-c33f-4055-b711-1db6a17ccd9b")
+		)
+		(instances
+			(project ""
+				(path "/cd04cd30-6b87-4bc2-a277-438dac0065f3"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 186.69 114.3 180)
 		(unit 1)
@@ -14382,7 +14392,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 51.562 41.656 0)
+			(at 51.308 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
