@@ -1,0 +1,229 @@
+(footprint "cnp_d11.5x8mm_disc_p12.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "11.5mm (dia) x 8mm (thk) disc ceramic capacitor, 12.5mm lead spacing")
+	(property "Reference" "C?"
+		(at 0 -5.3 0)
+		(layer "F.SilkS")
+		(uuid "b9d4095d-7f43-4506-890b-c95500c8748b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "cnp_d11.5x8mm_disc_p12.5mm"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a4ddc938-ba65-4daf-b659-4f3139c9ca5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d103f30-d68e-471f-aa21-46e8dfebbe12")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4eafe02-e0d3-4af4-b230-26c2cdf61f3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.8 -2.1)
+		(end -5.8 2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bebbc051-2d9f-4505-95ff-4e241c55b7fd")
+	)
+	(fp_line
+		(start -4.8 3.1)
+		(end 4.8 3.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f9d8a5e-db40-40ac-8e31-c04e0bf3b0f8")
+	)
+	(fp_line
+		(start 0 -4)
+		(end -5.4 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56f1d7a8-d41d-4fd5-82ba-214dc8fcba48")
+	)
+	(fp_line
+		(start 0 -4)
+		(end 1 -3.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a548a208-7b63-4a70-af9d-0b04241d5ee7")
+	)
+	(fp_line
+		(start 0 4)
+		(end -1 3.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a95def8-acac-43ad-8599-d1b35b949b6f")
+	)
+	(fp_line
+		(start 0 4)
+		(end 5.4 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb4a25ea-a6e3-42eb-b483-e28cabcf4204")
+	)
+	(fp_line
+		(start 4.8 -3.1)
+		(end -4.8 -3.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e058c046-b198-4f18-aa0a-adc622d6dd20")
+	)
+	(fp_line
+		(start 5.8 2.1)
+		(end 5.8 -2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d04f59f6-8309-4df1-a693-da9c88a4aabb")
+	)
+	(fp_arc
+		(start -5.802492 -2.295016)
+		(mid -6.275924 -3.306778)
+		(end -5.4 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fcfc2787-2f8e-4e88-b55a-e184e080fc90")
+	)
+	(fp_arc
+		(start -5.8 -2.1)
+		(mid -5.507107 -2.807107)
+		(end -4.8 -3.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91f18808-3f4a-47ac-8f89-3a827c2ad1eb")
+	)
+	(fp_arc
+		(start -4.8 3.1)
+		(mid -5.507107 2.807107)
+		(end -5.8 2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2974ca9-0e6f-4f3c-a524-b6029a524c36")
+	)
+	(fp_arc
+		(start 4.8 -3.1)
+		(mid 5.507107 -2.807107)
+		(end 5.8 -2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6aa459ef-ea87-4d94-ae76-e37b022e009f")
+	)
+	(fp_arc
+		(start 5.8 2.1)
+		(mid 5.507107 2.807107)
+		(end 4.8 3.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3b20c92-a8d8-4467-894f-e8db2eae78b9")
+	)
+	(fp_arc
+		(start 5.802492 2.295016)
+		(mid 6.275924 3.306778)
+		(end 5.4 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4b2fb00-d602-47b6-b3e9-ce4bda98bbf2")
+	)
+	(pad "1" thru_hole circle
+		(at -5.4 -3.1)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37ff261c-2908-434c-a210-543d10c9c849")
+	)
+	(pad "2" thru_hole circle
+		(at 5.4 3.1)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d0a901a9-8215-421b-9075-eb305f3b8edb")
+	)
+	(embedded_fonts no)
+	(model "walter/capacitors.3dshapes/cnp_d11.5x8mm_disc_p12.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -4134,7 +4134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "w_capacitors:CP_6.3x11mm_horiz-L"
 			(at 146.05 138.43 0)
 			(effects
 				(font
@@ -4612,7 +4612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "w_capacitors:CP_6.3x11mm_horiz-L"
 			(at 146.05 44.45 0)
 			(effects
 				(font
@@ -5304,7 +5304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "w_capacitors:CP_6.3x11mm_horiz-L"
 			(at 146.05 91.44 0)
 			(effects
 				(font

@@ -1,0 +1,249 @@
+(footprint "cnp_d9x9mm_disc_p12.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "9mm (dia) x 9mm (thk) disc ceramic capacitor, 12.5mm lead spacing")
+	(property "Reference" "C?"
+		(at 0 -5.3 0)
+		(layer "F.SilkS")
+		(uuid "b9d4095d-7f43-4506-890b-c95500c8748b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "cnp_d9x9mm_disc_p12.5mm"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a4ddc938-ba65-4daf-b659-4f3139c9ca5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5d5bc62-ded7-4b5c-b8ad-9957d8740c38")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efa3d932-6629-43ec-a96b-fe6c48b46107")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.195237 -2.821433)
+		(end -4.5 -2.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1dd655d7-73e3-43f5-8d08-536e03749e04")
+	)
+	(fp_line
+		(start -4.5 -2.7)
+		(end -4.5 2.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5e1a39d-2142-4eea-8f1e-64a40077adae")
+	)
+	(fp_line
+		(start -3.5 3.7)
+		(end 3.5 3.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85f2e885-a3a0-4567-9b61-2cf4c3373307")
+	)
+	(fp_line
+		(start 0 -4.6)
+		(end -5 -4.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "391f2e53-877a-401a-9a7e-2e109ce11636")
+	)
+	(fp_line
+		(start 0 -4.6)
+		(end 1 -3.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b5864f0-c9a5-418a-a4b3-78ee5198d2d0")
+	)
+	(fp_line
+		(start 0 4.6)
+		(end -1 3.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cb1f7b2-a57d-4080-b752-07a1e2250668")
+	)
+	(fp_line
+		(start 0 4.6)
+		(end 5 4.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36c56037-8749-4884-9125-d31ded41d34f")
+	)
+	(fp_line
+		(start 3.5 -3.7)
+		(end -3.5 -3.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2329bde-221b-40e2-9c20-4b5f241e2346")
+	)
+	(fp_line
+		(start 4.5 2.7)
+		(end 4.5 -2.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db18667d-8915-4c97-9b4f-7a28553d2e72")
+	)
+	(fp_line
+		(start 5.195237 2.821433)
+		(end 4.5 2.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f808c11c-f305-49b5-b4db-21d5b1453688")
+	)
+	(fp_arc
+		(start -5.195237 -2.821432)
+		(mid -5.894626 -3.798205)
+		(end -5 -4.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e879651-e71a-485d-b725-bebbb8b8fbb5")
+	)
+	(fp_arc
+		(start -4.5 -2.7)
+		(mid -4.207107 -3.407107)
+		(end -3.5 -3.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e0cdc63-0178-4076-a968-aa10c620e94d")
+	)
+	(fp_arc
+		(start -3.5 3.7)
+		(mid -4.207107 3.407107)
+		(end -4.5 2.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b199020-aebe-46c1-a320-11c92423e13a")
+	)
+	(fp_arc
+		(start 3.5 -3.7)
+		(mid 4.207107 -3.407107)
+		(end 4.5 -2.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7067ad20-a260-40f8-beb5-ce0de880d288")
+	)
+	(fp_arc
+		(start 4.5 2.7)
+		(mid 4.207107 3.407107)
+		(end 3.5 3.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8043e7ff-a08e-4c7b-ae0b-519776122a43")
+	)
+	(fp_arc
+		(start 5.195237 2.821432)
+		(mid 5.894626 3.798205)
+		(end 5 4.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c90756dc-e226-4a42-ae1a-5e6652bb5328")
+	)
+	(pad "1" thru_hole circle
+		(at -5 -3.7)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37ff261c-2908-434c-a210-543d10c9c849")
+	)
+	(pad "2" thru_hole circle
+		(at 5 3.7)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d0a901a9-8215-421b-9075-eb305f3b8edb")
+	)
+	(embedded_fonts no)
+	(model "walter/capacitors.3dshapes/cnp_d9x9mm_disc_p12.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

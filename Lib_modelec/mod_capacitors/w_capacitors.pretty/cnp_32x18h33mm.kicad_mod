@@ -1,0 +1,122 @@
+(footprint "cnp_32x18h33mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "cap non pol, 32x18 h33mm")
+	(property "Reference" "C?"
+		(at 0 11 0)
+		(layer "F.SilkS")
+		(uuid "b6c79691-4b7f-4265-bbe4-816195ba0f77")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "cnp_32x18h33mm"
+		(at 0 -11 0)
+		(layer "F.SilkS")
+		(uuid "6c0114de-64c4-45dd-9e59-b3995b3cd32c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52e968d6-d354-48e6-8bd7-3b91b7068565")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "750d48da-6335-428e-b676-c91961a614d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -16.3 -9.3)
+		(end 16.3 -9.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f031896-3dc7-4d45-8e68-e1ff35150f73")
+	)
+	(fp_line
+		(start -16.3 9.3)
+		(end -16.3 -9.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8c5b182-b22c-4de1-89fc-c30dacfd2324")
+	)
+	(fp_line
+		(start 16.3 -9.3)
+		(end 16.3 9.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b40f51bf-2626-4409-8026-48546ef59aeb")
+	)
+	(fp_line
+		(start 16.3 9.3)
+		(end -16.3 9.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0719b8bb-62a1-4c23-a27c-d5e73a263977")
+	)
+	(pad "1" thru_hole circle
+		(at 13.75 0)
+		(size 2.7 2.7)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "143024b8-bfc2-46f0-acc5-5998fb615cf2")
+	)
+	(pad "2" thru_hole circle
+		(at -13.75 0)
+		(size 2.7 2.7)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6eb49597-9041-45b6-993a-5d7dd71fc20f")
+	)
+	(embedded_fonts no)
+	(model "walter/capacitors.3dshapes/cnp_32x18h33mm-4p10.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

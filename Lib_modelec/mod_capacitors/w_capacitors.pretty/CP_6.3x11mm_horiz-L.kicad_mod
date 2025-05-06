@@ -1,0 +1,154 @@
+(footprint "CP_6.3x11mm_horiz-L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor, pol, cyl 6.3x11mm, horizontal left")
+	(property "Reference" "C?"
+		(at 0 -4.7 0)
+		(layer "F.SilkS")
+		(uuid "9d39ebce-f6d7-4d1f-8f06-5fb44de6244f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "CP_6.3x11mm_horiz-L"
+		(at 0 4.7 0)
+		(layer "F.SilkS")
+		(uuid "61d81fe2-7265-41d1-9073-afa9e8f289c8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0bb0981-b2b1-4185-973c-ab1ff6258369")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0d03542-9f91-4816-9c84-fa6c6c5e0d8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -13.2 3.4)
+		(end -13.2 -3.4)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0926c62e-f21a-4c4d-82e0-8898de3aecc5")
+	)
+	(fp_line
+		(start -1.2 -3.4)
+		(end -1.2 3.4)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d28ad05-0ce7-4d38-aeea-c5c0a108cf38")
+	)
+	(fp_line
+		(start -1.2 -1.25)
+		(end 0 -1.25)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5a6abfb-10e5-4dfa-8364-88ed76c66f48")
+	)
+	(fp_line
+		(start -1.2 1.25)
+		(end 0 1.25)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97bd8ec2-2c1e-403e-9c69-d3f9dcbf736e")
+	)
+	(fp_line
+		(start -1.2 3.4)
+		(end -13.2 3.4)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10bae87e-599a-45dd-b536-86fed3341cfb")
+	)
+	(fp_line
+		(start -0.5 -2.8)
+		(end 0.5 -2.8)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03a0ba67-94c0-477e-9276-5be2a43a4b66")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 -2.7) (xy -13.2 -2.7) (xy -13.2 -3.4) (xy -1.2 -3.4)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0eba6d1a-ee70-4de9-a683-f818bc9fc07b")
+	)
+	(pad "1" thru_hole rect
+		(at 0 1.25)
+		(size 1.2 1.2)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "26378766-a55c-45c3-ba70-2016678b14bc")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1.25)
+		(size 1.2 1.2)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "ba7a9075-d265-43fd-b73e-c9e24d317904")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Lib_modelec/3d_capacitors/walter/capacitors.3dshapes/cp_6.3x11mm_hor-l.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -357,7 +357,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../Lib_modelec/composants/LIB_TMC2209_SILENTSTEPSTICK/TMC2209_SILENTSTEPSTICK.step"
 		(offset
-			(xyz 0 0 4)
+			(xyz 0 0 5)
 		)
 		(scale
 			(xyz 1 1 1)
