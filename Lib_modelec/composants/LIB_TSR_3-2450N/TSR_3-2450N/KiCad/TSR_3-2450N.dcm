@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TSR_3-2450N
+D TSR 3N Series, 3 A ,Non-Isolated DC/DC Converter (POL)  , 5 VDC ,3000 mA ,SIP3 .
+K
+F https://tracopower.com/tsr3n-datasheet/
+$ENDCMP
+#
+#End Doc Library
