@@ -5419,7 +5419,7 @@
 		)
 		(uuid "4337cd59-84a4-4b9b-8882-affe7a8ae5f8")
 	)
-	(label "IN1A"
+	(label "IN1B"
 		(at 128.27 176.53 180)
 		(effects
 			(font
@@ -5439,7 +5439,7 @@
 		)
 		(uuid "5200104e-3186-45e5-8b05-1a919a025beb")
 	)
-	(label "IN2A"
+	(label "IN2B"
 		(at 128.27 179.07 180)
 		(effects
 			(font
@@ -5499,7 +5499,7 @@
 		)
 		(uuid "904c247d-46bd-4757-907d-06bdfa574512")
 	)
-	(label "CTB"
+	(label "CTA"
 		(at 140.97 184.15 0)
 		(effects
 			(font
@@ -5519,7 +5519,7 @@
 		)
 		(uuid "a1770611-993e-48d3-9d99-5587aee8a82e")
 	)
-	(label "ENA"
+	(label "ENB"
 		(at 128.27 181.61 180)
 		(effects
 			(font
@@ -5529,7 +5529,7 @@
 		)
 		(uuid "aa1eba39-00a3-4244-b50f-8aed742671ba")
 	)
-	(label "IN2B"
+	(label "IN2A"
 		(at 140.97 179.07 0)
 		(effects
 			(font
@@ -5549,7 +5549,7 @@
 		)
 		(uuid "b9c07739-ebb7-41de-a31f-2feb4d1f6df7")
 	)
-	(label "CTA"
+	(label "CTB"
 		(at 128.27 184.15 180)
 		(effects
 			(font
@@ -5559,7 +5559,7 @@
 		)
 		(uuid "cfacac45-6c49-4c6f-b768-b38f4f26b392")
 	)
-	(label "ENB"
+	(label "ENA"
 		(at 140.97 181.61 0)
 		(effects
 			(font
@@ -5579,7 +5579,7 @@
 		)
 		(uuid "fb73b641-05f6-4426-88ab-77689d268b67")
 	)
-	(label "IN1B"
+	(label "IN1A"
 		(at 140.97 176.53 0)
 		(effects
 			(font

@@ -511,7 +511,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "fabrication",
+      "plot": "../../../Downloads/",
       "pos_files": "CPL.csv",
       "specctra_dsn": "",
       "step": "",
